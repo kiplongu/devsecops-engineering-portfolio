@@ -1,0 +1,10 @@
+{
+  "id": "CVE-DEMO-0001",
+  "title": "Demonstration remote-code-execution finding",
+  "cvss": 9.8,
+  "knownExploited": true,
+  "internetExposed": true,
+  "reachable": true,
+  "assetCriticality": "critical",
+  "fixAvailable": true
+}

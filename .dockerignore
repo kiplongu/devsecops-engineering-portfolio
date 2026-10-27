@@ -1,0 +1,9 @@
+.git
+.github
+artifacts
+docs
+evidence
+security
+terraform
+tools
+*.md

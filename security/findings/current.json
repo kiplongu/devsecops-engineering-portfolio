@@ -1,0 +1,46 @@
+{
+  "scanId": "demo-rescan-2026-10-27",
+  "generatedAt": "2026-10-27T08:00:00Z",
+  "findings": [
+    {
+      "id": "CVE-DEMO-0001",
+      "component": "example/web-framework",
+      "installedVersion": "1.4.3",
+      "fixedVersion": "1.4.3",
+      "cvss": 9.8,
+      "knownExploited": true,
+      "internetExposed": true,
+      "reachable": false,
+      "assetCriticality": "critical",
+      "fixAvailable": true,
+      "status": "verified",
+      "owner": "application-team",
+      "remediation": "Upgraded the affected component to the scanner-supplied fixed version.",
+      "verification": {
+        "rescanPassed": true,
+        "verifiedAt": "2026-10-27T08:00:00Z",
+        "evidence": "demo://rescans/CVE-DEMO-0001"
+      }
+    },
+    {
+      "id": "CVE-DEMO-0002",
+      "component": "example/parser",
+      "installedVersion": "3.1.2",
+      "fixedVersion": "3.1.2",
+      "cvss": 7.5,
+      "knownExploited": false,
+      "internetExposed": false,
+      "reachable": false,
+      "assetCriticality": "high",
+      "fixAvailable": true,
+      "status": "verified",
+      "owner": "platform-team",
+      "remediation": "Updated the parser and reran the security test suite.",
+      "verification": {
+        "rescanPassed": true,
+        "verifiedAt": "2026-10-27T08:00:00Z",
+        "evidence": "demo://rescans/CVE-DEMO-0002"
+      }
+    }
+  ]
+}

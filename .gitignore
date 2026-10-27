@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.idea/
+.vscode/
+artifacts/
+bin/
+coverage.out
+evidence/jenkins/
+evidence/sbom/
+*.log
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform/**/.state/
+__pycache__/
+*.pyc

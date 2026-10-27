@@ -1,0 +1,8 @@
+title = "DevSecOps engineering portfolio Gitleaks policy"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Only documented fictional identifiers used in lifecycle fixtures"
+paths = ['''security/findings/.*\.json''']
